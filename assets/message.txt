@@ -1,0 +1,209 @@
+{
+  //? Theme's 🎨
+  "workbench.colorTheme": "Paradise",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "icons-carbon",
+
+  //? Font's 📝
+  "editor.fontSize": 20,
+  "editor.lineHeight": 32,
+  "editor.fontWeight": "600",
+  "terminal.integrated.fontSize": 16,
+  //* Cascadia Code
+  // "editor.fontFamily": "Cascadia Code",
+  // "terminal.integrated.fontFamily": "Cascadia Code",
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  //* JetBrains Mono
+  "editor.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+
+  //? Important's 🔐
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  // "window.zoomLevel": 1,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [95],
+  "editor.cursorWidth": 4,
+  "editor.cursorBlinking": "expand",
+  // Smooth 🎊
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  //? General 🎈
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "javascript.suggest.autoImports": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  //* Force Italic Font's
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "scope": [
+  //         //following will be in italic (=FlottFlott)
+  //         "comment",
+  //         "entity.name.type.class", //class names
+  //         "keyword", //import, export, return…
+  //         "constant", //String, Number, Boolean…, this, super
+  //         "storage.modifier", //static keyword
+  //         "storage.type.class.js" //class keyword
+  //       ],
+  //       "settings": {
+  //         "fontStyle": "italic"
+  //       }
+  //     },
+  //     {
+  //       "scope": [
+  //         //following will be excluded from italics (VSCode has some defaults for italics)
+  //         "invalid",
+  //         "keyword.operator",
+  //         "constant.numeric.css",
+  //         "keyword.other.unit.px.css",
+  //         "constant.numeric.decimal.js",
+  //         "constant.numeric.json"
+  //       ],
+  //       "settings": {
+  //         "fontStyle": ""
+  //       }
+  //     }
+  //   ]
+  // },
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "cSpell.userWords": [
+    "chakra",
+    "IUGU",
+    "middlewares",
+    "mixpanel",
+    "Onboarded",
+    "prefetch",
+    "rocketseat",
+    "upsert"
+  ],
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "cSpell.language": "en,pt",
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "editor.suggestSelection": "first",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editor.labelFormat": "short",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+    // "source.organizeImports": true
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "gitlens.codeLens.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "workbench.colorCustomizations": {},
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

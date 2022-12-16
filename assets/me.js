@@ -16,7 +16,7 @@ function loaded(){
 
 var x = 0;
 
-var titleText = [ "d", "dn", "dny","dny#","dny#0","dny#00","dny#000", "dny#0007", "dny#0007","dny#0007"];
+var titleText = [ "d", "dn", "dny","dny#","dny#0","dny#00","dny#006", "dny#0065", "dny#0065","dny#0065"];
 
 function loop(){
 
